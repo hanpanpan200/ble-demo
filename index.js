@@ -12,4 +12,4 @@ const ReactNativeStarter = () => (
 
 export default ReactNativeStarter
 
-AppRegistry.registerComponent('ReactNativeStarter', () => ReactNativeStarter)
+AppRegistry.registerComponent('BleDemo', () => ReactNativeStarter)
