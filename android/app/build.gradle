@@ -99,7 +99,7 @@ android {
 
     defaultConfig {
         applicationId "com.bledemo"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -137,6 +137,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-beacons-manager')
     compile project(':react-native-ble-manager')
     compile project(':react-native-vector-icons')
     compile fileTree(dir: "libs", include: ["*.jar"])

@@ -4,8 +4,8 @@ import { Scene, Router } from 'react-native-router-flux'
 import { connect } from 'react-redux'
 import LoginContainer from './auth/Login'
 import PageA from './navigationExample/PageA'
-import PageB from './navigationExample/PageB'
-import PageC from './navigationExample/PageC'
+import IOSBeacon from './navigationExample/IOSBeacon'
+import AndroidBeacon from './navigationExample/AndroidBeacon'
 
 import TabIcon from './layout/TabIcon'
 
@@ -52,7 +52,7 @@ const AppRouters = () => (
               unSelectedIcon="emoji-flirt"
             />
           )}
-          component={PageB}
+          component={IOSBeacon}
         />
         <Scene
           key="pageC"
@@ -65,7 +65,7 @@ const AppRouters = () => (
               unSelectedIcon="emoji-happy"
             />
           )}
-          component={PageC}
+          component={AndroidBeacon}
         />
       </Scene>
       <Scene
