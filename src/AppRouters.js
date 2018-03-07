@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import LoginContainer from './auth/Login'
 import PageA from './navigationExample/PageA'
 import IOSBeacon from './navigationExample/IOSBeacon'
-import AndroidBeacon from './navigationExample/AndroidBeacon'
+import PageC from './navigationExample/PageC'
 
 import TabIcon from './layout/TabIcon'
 
@@ -65,7 +65,7 @@ const AppRouters = () => (
               unSelectedIcon="emoji-happy"
             />
           )}
-          component={AndroidBeacon}
+          component={PageC}
         />
       </Scene>
       <Scene
