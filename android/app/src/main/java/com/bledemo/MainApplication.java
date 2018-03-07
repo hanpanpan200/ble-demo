@@ -3,7 +3,8 @@ package com.bledemo;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import it.innove.BleManagerPackage;
+import com.mackentoch.beaconsandroid.BeaconsAndroidPackage;
+import net.no_mad.tts.TextToSpeechPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -25,7 +26,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new BleManagerPackage(),
+            new BeaconsAndroidPackage(),
+            new TextToSpeechPackage(),
             new VectorIconsPackage()
       );
     }
